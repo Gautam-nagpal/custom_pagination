@@ -1,0 +1,34 @@
+.main_container{
+    display: block !important;
+}
+
+.MuiAppBar-colorPrimary{
+    background-color: black !important;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.page-numbers{
+    list-style: none;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-numbers li{
+    border: 1px solid;
+    padding: 10px;
+    border-right: none;
+    cursor: pointer;
+}
+
+.page-numbers li:nth-last-child(1){
+    border-right: 1px solid ;
+}
+
+.page-numbers li.active {
+    background-color: #b8b8b8;
+}
